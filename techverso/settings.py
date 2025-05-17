@@ -19,11 +19,11 @@ DEBUG = True
    # "https://a1f3-2804-2dc-ff22-7c01-8cbf-54bb-c8bd-af4d.ngrok-free.app",
   
 ALLOWED_HOSTS = ["127.0.0.1",
-                 "localhost",]
+                 "localhost"]
 
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'base', 'static'),
-
+]
 
 
 # Application definition
@@ -103,7 +103,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'techverso',
         'USER': 'root',
-        'PASSWORD': 'jpca1219',
+        'PASSWORD': '549vbYu21M0*',
         'HOST': 'localhost',
         'PORT': 3306,
     }
@@ -205,3 +205,7 @@ MESSAGE_TAGS = {
 # Para envio de e-mail
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
+# Chave secreta válida
+
+SECRET_KEY = '9@sxsb3!^#o$n8taybng%(+!iusye)wrt=)9m1u5w2f-jsgn6c'
